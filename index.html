@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mahamat Taher Ibrahim Doutoum | Portfolio</title>
+  <meta name="description" content="Portfolio de Mahamat Taher Ibrahim Doutoum, étudiant en Bachelor 3 Admin Réseaux & SecOps à l'IPSSI Paris, en recherche d'alternance en administration systèmes et réseaux.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="#top" class="logo">ibra<span>.</span></a>
+
+      <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="menu">
+        <a href="#a-propos">À propos</a>
+        <a href="#competences">Compétences</a>
+        <a href="#projets">Projets</a>
+        <a href="#experiences">Expériences</a>
+        <a href="#veille">Veille</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero" id="accueil">
+      <div class="container hero-grid">
+        <div>
+          <p class="badge"><span class="led"></span> Dispo en alternance dès novembre 2026</p>
+          <h1>Mahamat Taher Ibrahim Doutoum</h1>
+          <p class="hero-role">Alternance <strong>Administrateur Systèmes et Réseaux</strong></p>
+          <p class="hero-text">
+            Étudiant en Bachelor 3 Admin Réseaux &amp; SecOps à l'IPSSI Paris.
+            J'aime comprendre comment un réseau tient debout, et surtout pourquoi il tombe.
+          </p>
+          <div class="hero-btns">
+            <a href="#projets" class="btn">Voir mes projets</a>
+            <a href="#contact" class="btn btn-ghost">Me contacter</a>
+          </div>
+        </div>
+
+        <!-- petit terminal, le texte est tapé par script.js -->
+        <div class="terminal" aria-hidden="true">
+          <div class="terminal-bar">
+            <i></i><i></i><i></i>
+            <span>ibra@homelab: ~</span>
+          </div>
+          <pre id="term"></pre>
+        </div>
+      </div>
+
+      <a href="#a-propos" class="scroll-down" aria-label="Descendre vers À propos">
+        <span>défiler</span>
+        <i></i>
+      </a>
+
+      <div class="cable"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+    </section>
+
+    <!-- A PROPOS -->
+    <section id="a-propos" class="section">
+      <div class="container about">
+        <img src="images/photo.jpg" alt="Photo de Mahamat Taher Ibrahim Doutoum" class="photo">
+
+        <div>
+          <h2>À propos</h2>
+          <p class="hello">Bonjour et bienvenue sur mon portfolio !</p>
+          <p>
+            Je m'appelle Mahamat, mais on m'appelle Ibra. L'informatique, c'est une passion que j'ai
+            depuis tout petit. Après deux ans de Bachelor à l'IPSSI Paris, j'ai choisi de me spécialiser
+            en <strong>Admin Réseaux &amp; SecOps</strong> pour ma 3e année.
+          </p>
+          <p>
+            Mes deux stages m'ont permis de passer de la théorie au terrain. Chez <strong>HSP</strong>,
+            j'ai déployé la supervision et la gestion des tickets sur les deux sites de l'entreprise.
+            Chez <strong>SUEZ</strong>, j'ai découvert le support dans un grand groupe, avec ServiceNow,
+            Intune et Autopilot.
+          </p>
+          <p>
+            Ce qui m'attire le plus, c'est la sécurité. Pour moi, l'administration systèmes et réseaux
+            est la meilleure base pour y arriver car on ne protège bien que ce qu'on connaît bien. C'est
+            aussi pour ça que je continue à me former sur mon homelab.
+          </p>
+          <p>
+            Aujourd'hui, je cherche une alternance de 12 mois en administration systèmes et réseaux
+            à partir de novembre 2026, suivant un rythme de 3 semaines en entreprise et 1 semaine à l'école.
+            Bonne visite, et n'hésitez pas à me contacter !
+          </p>
+          <ul class="infos">
+            <li><b>Localisation</b> Yvelines (78), Île-de-France</li>
+            <li><b>Langues</b> Français C2, Anglais B1</li>
+            <li><b>Rythme</b> 3 sem. / 1 sem.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPETENCES -->
+    <section id="competences" class="section alt">
+      <div class="container">
+        <h2>Compétences</h2>
+
+        <div class="skills">
+          <div class="skill-box">
+            <h3>Systèmes</h3>
+            <ul>
+              <li><a href="https://learn.microsoft.com/fr-fr/windows-server/" target="_blank">Windows Server (AD, GPO)</a></li>
+              <li><a href="https://ubuntu.com/server" target="_blank">Linux Ubuntu / Debian</a></li>
+              <li><a href="https://learn.microsoft.com/fr-fr/mem/intune/" target="_blank">Microsoft Intune</a></li>
+              <li><a href="https://learn.microsoft.com/fr-fr/autopilot/" target="_blank">Windows Autopilot</a></li>
+              <li><a href="https://www.microsoft.com/fr-fr/microsoft-365" target="_blank">Microsoft 365</a></li>
+            </ul>
+          </div>
+
+          <div class="skill-box">
+            <h3>Réseaux</h3>
+            <ul>
+              <li>TCP/IP, DHCP, DNS</li>
+              <li>VLAN, VPN</li>
+              <li><a href="https://tailscale.com/" target="_blank">Tailscale</a></li>
+              <li><a href="https://www.cisco.com/site/fr/fr/learn/training-certifications/certifications/enterprise/ccna/index.html" target="_blank">Notions CCNA</a></li>
+            </ul>
+          </div>
+
+          <div class="skill-box">
+            <h3>Sécurité</h3>
+            <ul>
+              <li><a href="https://www.pfsense.org/" target="_blank">pfSense</a> / <a href="https://opnsense.org/" target="_blank">OPNsense</a></li>
+              <li><a href="https://nmap.org/" target="_blank">Nmap</a></li>
+              <li><a href="https://www.wireshark.org/" target="_blank">Wireshark</a></li>
+              <li><a href="https://owasp.org/www-project-top-ten/" target="_blank">OWASP Top 10</a></li>
+              <li>MFA, durcissement</li>
+            </ul>
+          </div>
+
+          <div class="skill-box">
+            <h3>Supervision &amp; support</h3>
+            <ul>
+              <li><a href="https://www.zabbix.com/" target="_blank">Zabbix</a></li>
+              <li><a href="https://glpi-project.org/" target="_blank">GLPI</a></li>
+              <li><a href="https://www.servicenow.com/" target="_blank">ServiceNow</a></li>
+              <li>AnyDesk, TeamViewer</li>
+            </ul>
+          </div>
+
+          <div class="skill-box">
+            <h3>Virtualisation &amp; Cloud</h3>
+            <ul>
+              <li><a href="https://www.proxmox.com/" target="_blank">Proxmox VE</a></li>
+              <li>VMware, Hyper-V</li>
+              <li><a href="https://www.docker.com/" target="_blank">Docker</a></li>
+              <li>Notions AWS / Azure</li>
+            </ul>
+          </div>
+
+          <div class="skill-box">
+            <h3>Scripting</h3>
+            <ul>
+              <li>PowerShell</li>
+              <li>Bash</li>
+              <li>Python</li>
+              <li><a href="https://www.ansible.com/" target="_blank">Ansible</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETS -->
+    <section id="projets" class="section">
+      <div class="container">
+        <h2>Projets</h2>
+
+        <div class="projects">
+
+          <article class="project">
+            <div class="project-head">
+              <h3>Supervision et tickets sur deux sites</h3>
+              <span class="year">Stage HSP · 2026</span>
+            </div>
+
+            <h4>Le contexte</h4>
+            <p>
+              HSP, c'est une vingtaine de salariés sur deux sites, à Bagnolet et à Paris.
+              L'admin bossait à distance et n'avait aucun outil pour savoir si le réseau tournait.
+              Les demandes arrivaient par WhatsApp ou par mail, et forcément, certaines se perdaient.
+            </p>
+
+            <h4>Ce que j'ai fait</h4>
+            <ul class="steps">
+              <li>J'ai monté des VM Ubuntu Server en IP fixe, pour que les outils ne changent pas d'adresse à chaque redémarrage</li>
+              <li>J'ai installé GLPI pour les tickets, et GLPI Inventory pour avoir enfin la liste du matériel</li>
+              <li>J'ai mis un Zabbix 7.4 sur chaque site. Quand il détecte une panne, ça ouvre un ticket dans GLPI</li>
+              <li>Les mails de GLPI ne partaient pas, j'ai dû régler le SMTP et passer la tâche cron en ligne de commande</li>
+              <li>J'ai ajouté l'imprimante dans Zabbix en SNMP, pour voir le niveau de toner sans me déplacer</li>
+            </ul>
+
+            <h4>Le souci</h4>
+            <p>
+              Pour accéder aux outils depuis l'extérieur, j'ai d'abord essayé WireGuard. La config était bonne,
+              mais rien ne passait. En testant le port, j'ai compris que la box était derrière un <strong>CGNAT</strong>,
+              donc pas moyen d'ouvrir quoi que ce soit. J'ai basculé sur <strong>Tailscale</strong>, qui n'a pas besoin
+              de port ouvert, et là ça a marché.
+            </p>
+
+            <h4>Au final</h4>
+            <p>Les demandes passent par GLPI, les pannes remontent toutes seules, et l'admin peut se connecter aux deux sites depuis chez lui.</p>
+
+            <ul class="tags"><li>Zabbix</li><li>GLPI</li><li>SNMP</li><li>Ubuntu Server</li><li>Tailscale</li></ul>
+          </article>
+
+          <article class="project">
+            <div class="project-head">
+              <h3>DataNova</h3>
+              <span class="year">Projet IPSSI · Février 2026</span>
+            </div>
+
+            <h4>Le contexte</h4>
+            <p>
+              Projet d'école : refaire l'infra d'une banque fictive. Le cahier des charges tenait en deux lignes.
+              Les services ne doivent jamais tomber, et les différentes parties du réseau ne doivent pas
+              pouvoir se parler librement.
+            </p>
+
+            <h4>Ce que j'ai fait</h4>
+            <ul class="steps">
+              <li>Un cluster Proxmox VE en haute dispo : si un serveur lâche, les VM repartent sur un autre</li>
+              <li>Un réseau cloisonné avec OPNsense et nftables, où seuls les flux autorisés passent</li>
+              <li>Un environnement Active Directory et un autre sous Ubuntu</li>
+              <li>Les installations faites avec Ansible plutôt qu'à la main</li>
+              <li>Les logs regroupés au même endroit, pour savoir ce qui se passe sur le réseau</li>
+            </ul>
+
+            <h4>Au final</h4>
+            <p>Avec les playbooks Ansible, on peut remonter toute l'infra en quelques commandes au lieu de passer des heures à tout réinstaller.</p>
+
+            <ul class="tags"><li>Proxmox</li><li>OPNsense</li><li>nftables</li><li>Ansible</li><li>Active Directory</li></ul>
+          </article>
+
+          <article class="project">
+            <div class="project-head">
+              <h3>NexaTech</h3>
+              <span class="year">Audit de sécurité · IPSSI · Mai 2026</span>
+            </div>
+
+            <h4>Le contexte</h4>
+            <p>
+              Un autre projet d'école, côté sécu cette fois. Le serveur web d'une boîte fictive venait de se faire attaquer.
+              Il fallait comprendre comment l'attaquant était entré, boucher les trous et éviter que ça recommence.
+            </p>
+
+            <h4>Ce que j'ai fait</h4>
+            <ul class="steps">
+              <li>J'ai fouillé les logs Apache pour retrouver le chemin de l'attaquant</li>
+              <li>J'ai repris 6 fichiers PHP pleins de failles : injection SQL, XSS, IDOR, LFI et upload pas filtré</li>
+              <li>J'ai durci la config SSH et mis en place un pare-feu UFW</li>
+              <li>J'ai écrit des scripts Bash pour pouvoir refaire l'audit en une commande</li>
+            </ul>
+
+            <h4>Au final</h4>
+            <p>J'ai rendu un plan de remédiation sous Word, et un petit dashboard HTML qui récapitule les failles et ce que j'ai corrigé.</p>
+
+            <ul class="tags"><li>OWASP Top 10</li><li>Apache</li><li>Bash</li><li>UFW</li><li>SSH</li></ul>
+          </article>
+
+          <article class="project">
+            <div class="project-head">
+              <h3>Homelab</h3>
+              <span class="year">Projet perso · en cours</span>
+            </div>
+
+            <h4>Le contexte</h4>
+            <p>
+              En cours, on voit beaucoup de théorie et on n'a pas toujours le temps de pratiquer.
+              Alors j'ai monté un petit SI chez moi, pour tester, casser et recommencer autant de fois que je veux.
+            </p>
+
+            <h4>Ce que j'ai monté</h4>
+            <ul class="steps">
+              <li>Proxmox pour faire tourner toutes mes VM</li>
+              <li>pfSense et OPNsense en pare-feu, avec des VLAN pour séparer le réseau</li>
+              <li>Pi-hole pour le DNS (et accessoirement, plus de pubs à la maison)</li>
+              <li>Active Directory, Zabbix, GLPI et Docker, les mêmes outils qu'en entreprise</li>
+            </ul>
+
+            <h4>La suite</h4>
+            <p>Trouver un switch et un routeur Cisco d'occasion pour m'entraîner sur la ligne de commande.</p>
+
+            <ul class="tags"><li>Proxmox</li><li>pfSense</li><li>VLAN</li><li>Pi-hole</li><li>Docker</li></ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCES -->
+    <section id="experiences" class="section alt">
+      <div class="container">
+        <h2>Expériences</h2>
+
+        <div class="timeline">
+          <div class="exp">
+            <span class="exp-date">Sept. 2026</span>
+            <h3>Technicien support informatique <em>· SUEZ</em></h3>
+            <p class="exp-place">Puteaux · Stage d'1 mois</p>
+            <ul>
+              <li>Support N1/N2 via ServiceNow, au comptoir IT et au bureau des utilisateurs</li>
+              <li>Réception du matériel, préparation et masterisation des postes, mises à jour BIOS</li>
+              <li>Enregistrement des postes dans Windows Autopilot</li>
+              <li>Enrôlement des smartphones pro sous Intune</li>
+              <li>Accueil des nouveaux arrivants et remise des postes</li>
+            </ul>
+          </div>
+
+          <div class="exp">
+            <span class="exp-date">Juin – Août 2026</span>
+            <h3>Administrateur systèmes et réseaux <em>· HSP</em></h3>
+            <p class="exp-place">Bagnolet et Paris · Stage de 3 mois</p>
+            <ul>
+              <li>Déploiement de Zabbix et GLPI (avec GLPI Inventory) sur deux sites</li>
+              <li>Sécurisation du réseau et MFA sur Microsoft 365</li>
+              <li>Scans Nmap et rapport de cartographie pour la direction</li>
+              <li>VPN d'accès distant avec Tailscale</li>
+              <li>Support utilisateurs : environ 20 tickets par jour</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VEILLE -->
+    <section id="veille" class="section">
+      <div class="container">
+        <h2>Veille</h2>
+        <p class="intro">Deux sujets que je suis de près, parce qu'ils touchent directement le métier d'admin. Dernière mise à jour : octobre 2026.</p>
+
+        <div class="veille">
+
+          <article class="veille-box">
+            <span class="veille-type">Veille technologique</span>
+            <h3>Sécurité des infrastructures</h3>
+
+            <div class="veille-cols">
+              <div>
+                <h4>Pourquoi ce sujet</h4>
+                <p>
+                  Un admin systèmes et réseaux est le premier à devoir appliquer un correctif quand une faille sort.
+                  Si on rate une alerte sur un pare-feu, un VPN ou un hyperviseur, c'est toute l'entreprise qui est exposée.
+                </p>
+
+                <h4>Ce que je surveille</h4>
+                <ul>
+                  <li><strong>Les failles critiques</strong> sur les équipements exposés à Internet : VPN, pare-feux, serveurs mail</li>
+                  <li><strong>Les hyperviseurs</strong> comme VMware ESXi, de plus en plus visés par les rançongiciels, parce qu'en chiffrant un seul serveur on bloque toutes les VM</li>
+                  <li><strong>Le Patch Tuesday</strong> de Microsoft, le deuxième mardi de chaque mois, pour savoir quels correctifs Windows passer en priorité</li>
+                  <li><strong>Les fins de support</strong>, comme celle de Windows 10 en octobre 2025 : un système qui ne reçoit plus de mises à jour devient une porte d'entrée</li>
+                </ul>
+
+                <h4>Ce que j'en retiens</h4>
+                <p>
+                  On ne peut pas tout patcher le jour même. Il faut savoir trier : d'abord ce qui est exposé
+                  sur Internet et activement exploité, ensuite le reste. Le score CVSS aide, mais ne suffit pas.
+                </p>
+              </div>
+
+              <aside class="veille-side">
+                <h4>Ma méthode</h4>
+                <p>Je suis les flux RSS des alertes CERT-FR et je fais un tour des sites ci-dessous chaque semaine.</p>
+
+                <h4>Sources</h4>
+                <ul>
+                  <li><a href="https://www.cert.ssi.gouv.fr/" target="_blank">CERT-FR</a> : alertes et avis de sécurité</li>
+                  <li><a href="https://msrc.microsoft.com/update-guide" target="_blank">Microsoft MSRC</a> : correctifs Windows</li>
+                  <li><a href="https://www.it-connect.fr/" target="_blank">IT-Connect</a> : actus et tutos en français</li>
+                  <li><a href="https://www.bleepingcomputer.com/" target="_blank">BleepingComputer</a> : actus cyber en anglais</li>
+                  <li><a href="https://cyber.gouv.fr/" target="_blank">ANSSI</a> : guides de bonnes pratiques</li>
+                </ul>
+              </aside>
+            </div>
+          </article>
+
+          <article class="veille-box">
+            <span class="veille-type">Veille juridique</span>
+            <h3>La directive NIS2</h3>
+
+            <div class="veille-cols">
+              <div>
+                <h4>C'est quoi ?</h4>
+                <p>
+                  NIS2 est une directive européenne qui impose des règles de cybersécurité à beaucoup plus d'organisations
+                  qu'avant. En France, l'ANSSI estime qu'environ 15 000 entités seront concernées : des entreprises de taille moyenne,
+                  des collectivités, des hôpitaux, et pas seulement les très grands groupes.
+                </p>
+
+                <h4>Ce que ça change pour les équipes IT</h4>
+                <ul>
+                  <li>Deux catégories : les <strong>entités essentielles</strong> et les <strong>entités importantes</strong>, avec des contrôles plus ou moins stricts</li>
+                  <li>Des mesures de sécurité obligatoires : gestion des risques, MFA, sauvegardes, gestion des accès, sécurité des fournisseurs</li>
+                  <li>Un incident important doit être signalé vite : une première alerte en 24 h, une notification en 72 h, puis un rapport final</li>
+                  <li>La direction est directement responsable de la cybersécurité de l'entreprise</li>
+                </ul>
+
+                <h4>Où en est la France ?</h4>
+                <p>
+                  La directive devait être transposée avant le 17 octobre 2024. En France, le projet de loi
+                  « résilience des infrastructures critiques » est passé au Sénat début 2025, puis en commission à l'Assemblée
+                  en septembre 2025. Son examen a encore été reporté début octobre 2026, donc le texte n'est toujours pas adopté.
+                </p>
+              </div>
+
+              <aside class="veille-side">
+                <h4>Pourquoi ça m'intéresse</h4>
+                <p>
+                  Beaucoup de ce que demande NIS2, je l'ai déjà mis en place en stage : MFA, inventaire du parc, supervision.
+                  Les entreprises vont avoir besoin d'admins qui connaissent ces règles.
+                </p>
+
+                <h4>Sources</h4>
+                <ul>
+                  <li><a href="https://monespacenis2.cyber.gouv.fr/" target="_blank">MonEspaceNIS2</a> : le site de l'ANSSI dédié</li>
+                  <li><a href="https://next.ink/" target="_blank">Next</a> : suivi du projet de loi au Parlement</li>
+                  <li><a href="https://www.cnil.fr/" target="_blank">CNIL</a> : RGPD et données personnelles</li>
+                </ul>
+              </aside>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section alt">
+      <div class="container">
+        <h2>Contact</h2>
+        <p class="intro">Une offre d'alternance, une question ? Écris-moi.</p>
+
+        <div class="contact">
+          <a href="mailto:ibrahimdoutoum10@gmail.com?subject=Alternance%20admin%20syst%C3%A8mes%20et%20r%C3%A9seaux" class="btn btn-big">Me contacter par mail</a>
+
+          <div class="contact-line">
+            <span>Email</span>
+            <code id="email">ibrahimdoutoum10@gmail.com</code>
+            <button id="copy">Copier</button>
+          </div>
+
+          <div class="contact-links">
+            <a href="https://www.linkedin.com/in/mahamat-taher-ibrahim-doutoum-923344352/" target="_blank" class="btn btn-ghost">LinkedIn</a>
+            <a href="https://github.com/ibra-mahamat" target="_blank" class="btn btn-ghost">GitHub</a>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© <span id="year">2026</span> Mahamat Taher Ibrahim Doutoum · Site codé en HTML, CSS et JavaScript</p>
+  </footer>
+
+</body>
+</html>
